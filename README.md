@@ -2,4 +2,4 @@
 Innlevering (Oppgave: Grunnleggende HTML og CSS)
 
 
-Velkommen Jo Bjørnar :)
+Velkommen til mitt verk Jo Bjørnar :)
