@@ -1,10 +1,29 @@
+html, body{
+    height: 100%;
+}
+
+body, article {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+article {
+    border: solid black 3px;
+    padding: 2px;
+}
+
 #brett {
     width: 400px;
-    height: 400px;
+    height: 412px;
     display: grid;
     background-color: rgb(255, 255, 255);
     grid-template-columns: repeat(8, 50px);
     grid-template-rows: repeat(8, 50px);
+    border: solid rgb(146, 108, 58), 20px;
+    
 }
 
 #brett> .odd > div:nth-child(odd) {
@@ -28,4 +47,5 @@
     border: solid black 1px;
     height: 50px;
     width: 50px;
+    margin: 0;
 }
