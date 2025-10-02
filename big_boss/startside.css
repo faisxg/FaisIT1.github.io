@@ -47,7 +47,7 @@ button , a{
     border: white solid 1px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -82,13 +82,41 @@ article{
     color: white;
 }
 
+h1, h3, p {
+    margin: 0;
+    padding: 0;
+}
 
 .tri > article{
-    margin-left: 10px;
     padding: 0;
-    height: auto;
+    height: 100%;
     width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
 }
+
+
+
+@media only screen and (max-width: 900px) {
+    #boxes {
+        display: grid;
+        gap: 3px;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(6, 1fr);
+        grid-template-areas: "a a a"
+        "b b b"
+        "c c c"
+        "c c c"
+        "d d d"
+        "e e e";
+    }
+    article{
+        font-size: x-small;
+    }
+    h3, h1, p {
+        padding: 0;
+        margin: 2%;
+    }
+}
+    
