@@ -10,3 +10,15 @@ let toiletrizz = Math.abs(sted1-sted2);
 console.log(toiletrizz);
 
 document.getElementById("diff").innerText = "Differansen mellom bokstavene til stedsnavnene du har oppgitt er " + toiletrizz;
+
+let start = prompt("Nå skal du få vite hvordan du ligger an til å ta førerkort. Vennligst oppgi alder:");
+start = parseInt(start)
+
+while (!Number.isInteger(start)) {
+    start = prompt("Skriv et tall blud");
+    start = parseInt(start)
+}
+
+if (start == 67) {
+    
+}
