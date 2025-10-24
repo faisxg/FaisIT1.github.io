@@ -1,5 +1,5 @@
 let sitat = "I aint praying for that new vet I'd rather have ma daaawgs back";
-document.getElementById("kaiCENAT").innerText = sitat;
+document.getElementById("thanksgiving").innerText = sitat;
 console.log(sitat.toUpperCase());
 
 let sted1 = (prompt("Skriv et stedsnavn:")).length;
