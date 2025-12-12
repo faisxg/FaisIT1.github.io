@@ -1,0 +1,38 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    background-image: url(bilder/wrapping-paper-562453_1920.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}    
+
+header {
+    color: aliceblue;
+    background-color: brown;
+    width: auto;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2, h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+figure{
+    margin: 0%;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    width: 2rem;
+}
