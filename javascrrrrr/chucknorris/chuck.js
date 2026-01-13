@@ -14,6 +14,7 @@ async function hentVits() {
     let bilde = document.createElement("img");
     bilde.src = data.icon_url;
     document.querySelector("#vits").appendChild(bilde);
+    console.table(data)
 }
 
 hentVits(); // Slik at me får ein vits med ein gong me lastar sida
