@@ -155,7 +155,8 @@ console.table(ordOgKlasse)
 console.log("\n--- OPPGAVE 5 ---");
 console.log("Oppgave: Beregn totalt antall ordklasser");
 // Skriv koden din her:
-
+const ordklasserAntall = ordbok.reduce((antall, ordKlasser) => antall + ordKlasser.ordklasser.length, 0)
+console.table(ordklasserAntall)
 
 // =====================================
 // OPPGAVE 6: reduce (avansert)
